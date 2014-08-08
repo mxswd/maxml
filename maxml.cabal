@@ -1,0 +1,21 @@
+name:                maxml
+version:             1.0.0.0
+synopsis:            A simple textual data representation
+-- description:         
+license:             BSD3
+license-file:        LICENSE
+author:              Maxwell Swadling
+maintainer:          maxwellswadling@gmail.com
+-- copyright:           
+category:            Data
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Data.MaxML
+  -- other-modules:       
+  other-extensions:    FlexibleInstances, UndecidableInstances
+  build-depends:       base >=4.6 && <4.8
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
