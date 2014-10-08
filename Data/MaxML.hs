@@ -9,4 +9,4 @@ instance (Read a, Show a) => MaxML a
 
 -- | a proposition that a type is in MaxML
 isMaxML :: MaxML a => a -> ()
-isMaxML a = ()
+isMaxML _ = ()
